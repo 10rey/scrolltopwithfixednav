@@ -16,7 +16,7 @@ a{
 
 body{
 	color: #fff;
-	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif, asd;
 	font-size: 18px;
 	text-align: center;
 }
@@ -38,6 +38,11 @@ nav li{
 nav li a{
 	color: #757575;
 	text-transform: uppercase;
+}
+
+nav li a:hover{
+	background-color: #757575;
+	color: #fff;
 }
 
 section{
